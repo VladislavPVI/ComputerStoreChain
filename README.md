@@ -22,10 +22,14 @@ Build and Run
 
 USERS
 -------------
-login: vlad
-password: 1234
-role: MANAGER
-
-login: vladCustom
-password: comp
-role: CUSTOMER
+        ```
+	login: vlad
+        password: 1234
+        role: MANAGER
+	```
+	
+	 ```
+	login: vladCustom
+        password: comp
+        role: CUSTOMER
+	```
