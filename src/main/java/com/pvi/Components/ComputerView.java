@@ -11,6 +11,7 @@ import com.vaadin.flow.component.Text;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.grid.Grid;
+import com.vaadin.flow.component.html.H3;
 import com.vaadin.flow.component.icon.Icon;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
@@ -59,7 +60,7 @@ public class ComputerView extends VerticalLayout {
         compareButton = new Button(new Icon(VaadinIcon.ABACUS));
         compareButton.addClickListener(event -> {
             listCompCompare();
-            compareDialog.add(new Text("Compare"), gridCompare);
+            compareDialog.add(new H3("Compare"), gridCompare);
             compareDialog.setWidth("1300px");
             compareDialog.open();
         });
